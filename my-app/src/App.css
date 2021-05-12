@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: #a1eafb;
+}
+.navbar a{
+  color:black;
+}
+.navbar-toggler{
+  background-color:azure;
+}
+.custom-toggler{
+  border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.content{
+  margin-top: 5%;
+  padding-top: 10%;
+}
+.contenth1{
+  color: #04009a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contentp1{
+  color: #04009a;
+}
+.contentp1{
+  padding-top: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content_img{
+  object-fit: cover;
+  width: 99%;
+  padding: auto;
+  margin-top: 15%;
+  padding-left: -5%;
 }
