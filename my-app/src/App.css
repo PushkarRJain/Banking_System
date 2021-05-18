@@ -26,7 +26,8 @@ body{
 }
 .contenth1{
   color: #7b113a;
-  font-weight: bold;
+  
+  font-family: 'Anton', sans-serif;
 }
 
 .contentp1{
@@ -34,6 +35,7 @@ body{
   font-weight: bold;
   padding-top: 5%;
   font-size: larger;
+  font-family: 'Merriweather', serif;
 }
 
 .content_img{
@@ -71,13 +73,14 @@ body{
   color: #150e56;
   font-weight: bold;
   font-size: larger;
+  font-family: 'Merriweather', serif;
 }
 
 .abouth1{
   margin-top: 10%;
   margin-bottom: 5%;
   color: #7b113a;
-  font-weight: bold;
+  font-family: 'Anton', sans-serif;
 }
 
 
@@ -176,4 +179,71 @@ footer .quick-links {
 .fa-ellipsis-h {
   color: white;
   padding: 2rem 0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input{
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.cardcust{
+  width: 50%;
+  border:2px solid #7b113a;
+  margin-top: 5%;
+}
+
+
+.plusbut{
+  border: none;
+  background-color: white;
+  margin-left: 85%;
+}
+
+#form{
+  display: none;
+  
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewh1{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #7b113a;
+  font-family: 'Anton', sans-serif;
+}
+
+.btn{
+  background-color: #a1eafb;
+}
+
+.card-header{
+  background-color: #a1eafb;
+  border-bottom:2px solid #7b113a;
+}
+
+.cardh1{
+  color: #150e56;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: larger;
+  font-family: 'Merriweather', serif;
+}
+
+.cardinfo{
+  width: 50%; 
+  border:2px solid #7b113a;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

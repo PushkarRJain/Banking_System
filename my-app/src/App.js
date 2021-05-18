@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import ViewCust from './components/viewcust';
 import TransMon from './components/transmon';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Custinfo from './components/custinfo';
 /* In normal html,css,node we make get req and then server sends us the page every time, but in react we make this process efficient, we make the get req once and then we don't interact with server again, we simply render different componenets ysing js
 Now here the navbar and footer are constant, tey never change the in-between content only changes.
 So we have directly rendered <Navbar/> and <Footer/>
@@ -26,6 +27,9 @@ function App() {
       </Route>
       <Route path="/viewcust">
       <ViewCust />
+      </Route>
+      <Route path="/custinfo/:name">
+      <Custinfo />
       </Route>
       </Switch>
       </div>
