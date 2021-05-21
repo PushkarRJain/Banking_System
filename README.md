@@ -1,5 +1,21 @@
 # Banking_System
-This project is about a basic banking system for transfer of money between multiple users.
+This is a full stack project to simulate banking operations of transfer of money between multiple users.
+
+TechStack:
+Technologies:React js, Javascript, SQL, HTML, CSS
+Dependencies: Node js, Express js
+
+In this project there is a home page. It consists of information about the bank, Navbar, About Us section and a footer. 
+The navbar has the following: a)Logo b)View Customers c)Transfer
+
+On clikcing 'View Customers', the information of customers will be available in a card format one below the other.
+There is a 'View' button for each customer's card to see more details about him/her, it dynamically renders of each customer.
+There is also a functionality to add users.
+
+On selecting 'Transfers', one can transfer money between two users.
+The messages regarding the transaction ie 'Transaction Successsful', 'Transaction Failed' are displayed on completion of transaction.
+In between there is a small animation to mimic the payment gateway.
+After the trasaction takes place, the changes in balance are visible in customer details.
 
 Home Page - 1 
 ![image](https://user-images.githubusercontent.com/56025143/119116763-32576f00-ba46-11eb-994a-4326f5add880.png)
